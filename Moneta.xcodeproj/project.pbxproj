@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0942831B3C648400F71EAB /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0942821B3C648400F71EAB /* Images-2.xcassets */; };
 		5BCE68981B33A99000FD1F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE68971B33A99000FD1F4D /* AppDelegate.swift */; };
 		5BCE689A1B33A99000FD1F4D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE68991B33A99000FD1F4D /* FirstViewController.swift */; };
 		5BCE689C1B33A99000FD1F4D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE689B1B33A99000FD1F4D /* SecondViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B0942821B3C648400F71EAB /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		5BCE68921B33A99000FD1F4D /* Moneta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moneta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCE68961B33A99000FD1F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BCE68971B33A99000FD1F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				5BCE689D1B33A99000FD1F4D /* Main.storyboard */,
 				5BCE68A01B33A99000FD1F4D /* Images.xcassets */,
 				5BCE68A21B33A99000FD1F4D /* LaunchScreen.xib */,
+				5B0942821B3C648400F71EAB /* Images-2.xcassets */,
 				5BCE68951B33A99000FD1F4D /* Supporting Files */,
 			);
 			path = Moneta;
@@ -198,6 +201,7 @@
 			files = (
 				5BCE689F1B33A99000FD1F4D /* Main.storyboard in Resources */,
 				5BCE68A41B33A99000FD1F4D /* LaunchScreen.xib in Resources */,
+				5B0942831B3C648400F71EAB /* Images-2.xcassets in Resources */,
 				5BCE68A11B33A99000FD1F4D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +347,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Moneta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +359,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Moneta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +420,7 @@
 				5BCE68B51B33A99000FD1F4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BCE68B61B33A99000FD1F4D /* Build configuration list for PBXNativeTarget "MonetaTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				5BCE68B81B33A99000FD1F4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
